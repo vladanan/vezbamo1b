@@ -13,7 +13,8 @@ const fileUpload = require('express-fileupload');
 // express app
 const app = express();
 
-app.listen(3000, "0.0.0.0");
+//app.listen(3000, "0.0.0.0");
+app.listen(process.env.PORT || 3000, "0.0.0.0");
 
 // register view engine
 app.set('view engine', 'ejs');
