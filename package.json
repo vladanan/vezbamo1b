@@ -4,6 +4,7 @@
   "description": "Aplikacija za pomoć pri učenju.",
   "main": "app.js",
   "scripts": {
+    "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vladan Anđelković",
